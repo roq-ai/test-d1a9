@@ -1,0 +1,2472 @@
+[
+  {
+    "tenant": [
+      {
+        "id": "0e593a25-42b8-4e79-bb8c-a1836494e5b9",
+        "rent_due_date": "2023-10-07T20:57:01.078Z",
+        "lease_start_date": "2023-10-07T23:34:24.007Z",
+        "lease_end_date": "2023-10-08T05:32:49.277Z",
+        "rent_amount": 68683,
+        "created_at": "2023-10-08T04:56:23.279Z",
+        "updated_at": "2023-10-07T18:54:57.460Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38c9be81-583f-4c07-ae63-f3644778fc33",
+        "rent_due_date": "2023-10-07T14:51:52.425Z",
+        "lease_start_date": "2023-10-08T14:14:12.135Z",
+        "lease_end_date": "2023-10-08T11:25:56.621Z",
+        "rent_amount": 11387,
+        "created_at": "2023-10-07T14:27:49.267Z",
+        "updated_at": "2023-10-08T00:27:18.847Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8bb5e1e-d4e9-4f88-87a8-017f22b752a0",
+        "rent_due_date": "2023-10-07T23:17:41.998Z",
+        "lease_start_date": "2023-10-08T01:35:17.593Z",
+        "lease_end_date": "2023-10-07T17:30:20.153Z",
+        "rent_amount": 77058,
+        "created_at": "2023-10-08T01:47:20.977Z",
+        "updated_at": "2023-10-08T04:14:52.886Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49eaf898-aecb-497c-80a1-80083eb67481",
+        "rent_due_date": "2023-10-08T13:25:43.624Z",
+        "lease_start_date": "2023-10-08T09:07:41.410Z",
+        "lease_end_date": "2023-10-08T10:02:56.840Z",
+        "rent_amount": 20122,
+        "created_at": "2023-10-07T15:46:33.209Z",
+        "updated_at": "2023-10-08T02:13:42.784Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70c8f63b-0e8b-44b7-8f80-909bde938101",
+        "rent_due_date": "2023-10-08T02:52:52.786Z",
+        "lease_start_date": "2023-10-07T21:33:01.349Z",
+        "lease_end_date": "2023-10-08T11:06:48.623Z",
+        "rent_amount": 26863,
+        "created_at": "2023-10-08T00:04:15.296Z",
+        "updated_at": "2023-10-08T02:06:30.060Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_provider": [
+      {
+        "id": "07fbc2c4-9ee2-4631-a947-b106711f6c0d",
+        "service_type": "Plumber",
+        "availability": "Monday-Friday",
+        "rating": 84651,
+        "created_at": "2023-10-08T13:24:22.598Z",
+        "updated_at": "2023-10-07T19:49:37.227Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba7e02a2-3ecd-4381-b66e-003418e28faa",
+        "service_type": "Electrician",
+        "availability": "Weekends",
+        "rating": 70922,
+        "created_at": "2023-10-08T13:17:22.792Z",
+        "updated_at": "2023-10-08T02:52:26.461Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1c6cac4-9166-4d25-9917-db3c3e20af9b",
+        "service_type": "Gardener",
+        "availability": "Evenings",
+        "rating": 29837,
+        "created_at": "2023-10-08T08:25:31.619Z",
+        "updated_at": "2023-10-08T04:20:05.842Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be05cb02-71bc-436c-a6a9-10961e29a5ea",
+        "service_type": "Painter",
+        "availability": "24/7",
+        "rating": 93794,
+        "created_at": "2023-10-08T11:14:45.148Z",
+        "updated_at": "2023-10-07T20:56:39.169Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1c27a56-e706-43ee-920f-8f0eb911bf7b",
+        "service_type": "Carpenter",
+        "availability": "On Call",
+        "rating": 66632,
+        "created_at": "2023-10-07T15:55:08.875Z",
+        "updated_at": "2023-10-08T00:37:22.654Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "property": [
+      {
+        "id": "017f70cb-8902-4e9e-a39f-ff6dc9081316",
+        "name": "Sunset Villa",
+        "address": "123 Main Street",
+        "tenant_id": "38c9be81-583f-4c07-ae63-f3644778fc33",
+        "property_type": "Apartment",
+        "created_at": "2023-10-08T04:37:42.400Z",
+        "updated_at": "2023-10-07T21:01:16.988Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "3ea75cc5-f9b2-48cd-9e65-7621510f79ff",
+        "name": "Oakwood Cottage",
+        "address": "456 Elm Avenue",
+        "tenant_id": "38c9be81-583f-4c07-ae63-f3644778fc33",
+        "property_type": "Cottage",
+        "created_at": "2023-10-07T22:48:32.526Z",
+        "updated_at": "2023-10-08T13:18:06.534Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "5272974f-0d60-413b-9628-7559e7907873",
+        "name": "City View Townhouse",
+        "address": "789 Oak Lane",
+        "tenant_id": "49eaf898-aecb-497c-80a1-80083eb67481",
+        "property_type": "Townhouse",
+        "created_at": "2023-10-08T04:51:53.145Z",
+        "updated_at": "2023-10-07T19:34:31.212Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "10a804a8-99b9-4c9a-953c-fb151260680a",
+        "name": "Meadow Farmhouse",
+        "address": "321 Pine Road",
+        "tenant_id": "70c8f63b-0e8b-44b7-8f80-909bde938101",
+        "property_type": "Farmhouse",
+        "created_at": "2023-10-07T19:38:37.680Z",
+        "updated_at": "2023-10-08T08:31:35.931Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "53d8d1fc-7f78-4154-9a1b-fe2714fe6fba",
+        "name": "Skyline Penthouse",
+        "address": "654 Maple Court",
+        "tenant_id": "0e593a25-42b8-4e79-bb8c-a1836494e5b9",
+        "property_type": "Penthouse",
+        "created_at": "2023-10-08T00:53:27.592Z",
+        "updated_at": "2023-10-08T01:48:31.485Z",
+        "landlord_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "77e98149-6dbd-4c53-bafd-3f45b66d12a9",
+        "visit_date": "2023-10-07T18:31:15.845Z",
+        "tenant_id": "49eaf898-aecb-497c-80a1-80083eb67481",
+        "visit_reason": "Vacation",
+        "created_at": "2023-10-08T00:23:22.072Z",
+        "updated_at": "2023-10-07T23:59:28.965Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ac61b0a-3500-44b3-899d-9d105b08cdb7",
+        "visit_date": "2023-10-08T13:32:41.136Z",
+        "tenant_id": "38c9be81-583f-4c07-ae63-f3644778fc33",
+        "visit_reason": "Business trip",
+        "created_at": "2023-10-08T07:21:23.126Z",
+        "updated_at": "2023-10-07T18:11:21.456Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f35115bd-2445-4b41-995c-f552384647d0",
+        "visit_date": "2023-10-08T06:50:26.460Z",
+        "tenant_id": "0e593a25-42b8-4e79-bb8c-a1836494e5b9",
+        "visit_reason": "Family visit",
+        "created_at": "2023-10-08T05:30:53.512Z",
+        "updated_at": "2023-10-08T04:21:21.573Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41f77dc9-5ffd-4a3d-b9c3-f7b298879752",
+        "visit_date": "2023-10-08T10:01:28.751Z",
+        "tenant_id": "70c8f63b-0e8b-44b7-8f80-909bde938101",
+        "visit_reason": "Wedding",
+        "created_at": "2023-10-08T06:02:38.654Z",
+        "updated_at": "2023-10-07T19:17:40.547Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc5411b4-6ea5-4185-ae15-3a036fdee30b",
+        "visit_date": "2023-10-07T23:09:27.928Z",
+        "tenant_id": "38c9be81-583f-4c07-ae63-f3644778fc33",
+        "visit_reason": "Sightseeing",
+        "created_at": "2023-10-07T21:35:44.375Z",
+        "updated_at": "2023-10-08T01:49:36.418Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a02f56bc-3846-46f3-ab02-a10c4ca24444",
+        "email": "Jennings_Witting2@roq.tech",
+        "firstName": "Raul",
+        "lastName": "Jerde",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/223.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0bc66b50-b2ee-4691-96f4-66a520ce8307",
+        "email": "Lydia_Rutherford21@roq.tech",
+        "firstName": "Nolan",
+        "lastName": "Daugherty",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/212.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5a0454c7-322b-4fbb-990e-de7d78f0328f",
+        "email": "King52@roq.tech",
+        "firstName": "Molly",
+        "lastName": "Anderson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65406466",
+        "tenantId": null
+      },
+      {
+        "reference": "bed8ec6d-2431-4a4a-9b29-e670ff597de4",
+        "email": "Danielle_Cormier@roq.tech",
+        "firstName": "Rodrigo",
+        "lastName": "Hansen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55509237",
+        "tenantId": null
+      },
+      {
+        "reference": "4a46b3c2-a748-481c-a406-7104eeccfb58",
+        "email": "Philip27@roq.tech",
+        "firstName": "Kenya",
+        "lastName": "Marvin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/307.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tenant": [
+      {
+        "id": "7757980e-46eb-4dce-b525-c8c2367cd90c",
+        "rent_due_date": "2023-10-08T09:13:37.534Z",
+        "lease_start_date": "2023-10-07T18:07:02.097Z",
+        "lease_end_date": "2023-10-08T03:12:56.451Z",
+        "rent_amount": 48323,
+        "created_at": "2023-10-07T16:08:16.595Z",
+        "updated_at": "2023-10-08T00:07:59.724Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1734e41e-6d20-4910-93f8-0f9a90eeee86",
+        "rent_due_date": "2023-10-08T06:29:12.552Z",
+        "lease_start_date": "2023-10-07T19:58:15.369Z",
+        "lease_end_date": "2023-10-08T06:30:04.674Z",
+        "rent_amount": 50357,
+        "created_at": "2023-10-08T12:04:28.152Z",
+        "updated_at": "2023-10-08T03:55:30.147Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e614d644-6ae2-4015-87d9-26e165b4f45e",
+        "rent_due_date": "2023-10-07T16:24:19.701Z",
+        "lease_start_date": "2023-10-07T22:21:41.711Z",
+        "lease_end_date": "2023-10-08T05:42:07.679Z",
+        "rent_amount": 14307,
+        "created_at": "2023-10-08T11:33:53.244Z",
+        "updated_at": "2023-10-07T19:25:38.431Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8fadcb6e-3fc6-462f-b696-fe9076948b42",
+        "rent_due_date": "2023-10-08T08:51:36.786Z",
+        "lease_start_date": "2023-10-08T01:55:25.324Z",
+        "lease_end_date": "2023-10-07T21:02:24.389Z",
+        "rent_amount": 15483,
+        "created_at": "2023-10-07T23:23:45.072Z",
+        "updated_at": "2023-10-08T00:25:18.407Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3992255f-7964-4e38-b2b9-1b1f056fc48f",
+        "rent_due_date": "2023-10-08T11:25:28.782Z",
+        "lease_start_date": "2023-10-08T09:26:25.556Z",
+        "lease_end_date": "2023-10-08T06:17:50.700Z",
+        "rent_amount": 36079,
+        "created_at": "2023-10-08T08:59:07.423Z",
+        "updated_at": "2023-10-07T16:08:50.338Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_provider": [
+      {
+        "id": "1274ddd0-9d57-44c6-a08c-bf954d61eca7",
+        "service_type": "Plumber",
+        "availability": "Monday-Friday",
+        "rating": 67548,
+        "created_at": "2023-10-07T23:41:16.806Z",
+        "updated_at": "2023-10-07T18:32:30.317Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15692c0d-455d-4ed1-9d64-04a57044f04f",
+        "service_type": "Electrician",
+        "availability": "Weekends",
+        "rating": 64798,
+        "created_at": "2023-10-07T20:42:48.669Z",
+        "updated_at": "2023-10-07T22:10:47.535Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02d5cec3-0604-4c35-8052-f415f7c7b61c",
+        "service_type": "Carpenter",
+        "availability": "Evenings",
+        "rating": 48014,
+        "created_at": "2023-10-08T07:37:55.512Z",
+        "updated_at": "2023-10-08T07:48:23.039Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9daac0ea-15d2-4a71-9065-8656672708bb",
+        "service_type": "Gardener",
+        "availability": "24/7",
+        "rating": 6382,
+        "created_at": "2023-10-08T11:11:11.763Z",
+        "updated_at": "2023-10-08T00:34:16.788Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8891daf0-2118-4f03-b4ab-f6c681b68b88",
+        "service_type": "Painter",
+        "availability": "On call",
+        "rating": 77138,
+        "created_at": "2023-10-07T20:35:47.818Z",
+        "updated_at": "2023-10-07T21:05:29.270Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "property": [
+      {
+        "id": "40948193-c3b2-4cb6-a2e3-9f02b962b6ea",
+        "name": "Sunny Villa",
+        "address": "123 Main Street",
+        "tenant_id": "1734e41e-6d20-4910-93f8-0f9a90eeee86",
+        "property_type": "Single Family Home",
+        "created_at": "2023-10-08T08:24:26.795Z",
+        "updated_at": "2023-10-08T06:37:23.135Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "8b12ac78-7739-47ba-9be9-b12760ede6f6",
+        "name": "Green Acres",
+        "address": "456 Elm Avenue",
+        "tenant_id": "3992255f-7964-4e38-b2b9-1b1f056fc48f",
+        "property_type": "Apartment",
+        "created_at": "2023-10-07T18:14:16.617Z",
+        "updated_at": "2023-10-08T04:36:17.256Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "efe0dbe2-2a53-4d7d-9893-0e7796a844f6",
+        "name": "Harmony House",
+        "address": "789 Oak Drive",
+        "tenant_id": "3992255f-7964-4e38-b2b9-1b1f056fc48f",
+        "property_type": "Condo",
+        "created_at": "2023-10-08T09:08:02.845Z",
+        "updated_at": "2023-10-08T08:17:00.169Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "1ffc63bf-3ea9-42c2-9061-5006b251c187",
+        "name": "Riverside Retreat",
+        "address": "321 Pine Lane",
+        "tenant_id": "7757980e-46eb-4dce-b525-c8c2367cd90c",
+        "property_type": "Townhouse",
+        "created_at": "2023-10-08T13:15:27.540Z",
+        "updated_at": "2023-10-08T09:40:29.989Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "9a09a64b-6e1a-4609-8d4d-4fe0e79e1bbe",
+        "name": "Mountain View",
+        "address": "654 Maple Road",
+        "tenant_id": "3992255f-7964-4e38-b2b9-1b1f056fc48f",
+        "property_type": "Duplex",
+        "created_at": "2023-10-08T00:29:49.815Z",
+        "updated_at": "2023-10-08T11:50:42.684Z",
+        "landlord_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "fef92a86-22ec-4726-83f8-67503f36381a",
+        "visit_date": "2023-10-08T11:03:32.058Z",
+        "tenant_id": "8fadcb6e-3fc6-462f-b696-fe9076948b42",
+        "visit_reason": "Vacation",
+        "created_at": "2023-10-07T15:38:40.195Z",
+        "updated_at": "2023-10-08T09:42:07.570Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4dc6895-5377-49be-8e49-612a3f82f60b",
+        "visit_date": "2023-10-07T17:04:11.189Z",
+        "tenant_id": "1734e41e-6d20-4910-93f8-0f9a90eeee86",
+        "visit_reason": "Business Trip",
+        "created_at": "2023-10-08T03:06:03.331Z",
+        "updated_at": "2023-10-07T20:41:02.113Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e8fe493-58ba-42fb-bab0-fd52fa1db0f2",
+        "visit_date": "2023-10-08T03:05:32.305Z",
+        "tenant_id": "3992255f-7964-4e38-b2b9-1b1f056fc48f",
+        "visit_reason": "Family Visit",
+        "created_at": "2023-10-08T13:08:39.090Z",
+        "updated_at": "2023-10-08T06:40:25.969Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f36662a3-919a-45fc-8d8f-ebb970795692",
+        "visit_date": "2023-10-07T16:44:17.441Z",
+        "tenant_id": "8fadcb6e-3fc6-462f-b696-fe9076948b42",
+        "visit_reason": "Wedding",
+        "created_at": "2023-10-08T13:34:59.704Z",
+        "updated_at": "2023-10-07T20:28:49.097Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf44c9fd-d033-4ffb-9c14-2dbc852daa97",
+        "visit_date": "2023-10-08T06:41:51.354Z",
+        "tenant_id": "7757980e-46eb-4dce-b525-c8c2367cd90c",
+        "visit_reason": "Sightseeing",
+        "created_at": "2023-10-08T08:00:50.460Z",
+        "updated_at": "2023-10-08T04:40:07.602Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "790745e5-1de7-4edb-9bfd-9bce9c929bd4",
+        "email": "Hubert.Schmidt@roq.tech",
+        "firstName": "Gilda",
+        "lastName": "Connelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8143334",
+        "tenantId": null
+      },
+      {
+        "reference": "71987cf4-6e01-425f-b86e-f80db1d5bc2d",
+        "email": "Kira90@roq.tech",
+        "firstName": "Bette",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60131734",
+        "tenantId": null
+      },
+      {
+        "reference": "1f89b172-92f5-4f21-a7b6-7bc62c440341",
+        "email": "Gabe.Greenfelder87@roq.tech",
+        "firstName": "Johnathon",
+        "lastName": "DuBuque",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74040185",
+        "tenantId": null
+      },
+      {
+        "reference": "a7e9b30b-b230-4ddc-92fe-0abcca662d96",
+        "email": "Malcolm5@roq.tech",
+        "firstName": "Coralie",
+        "lastName": "Williamson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63109610",
+        "tenantId": null
+      },
+      {
+        "reference": "a87bb042-aed0-4255-ba6d-c616cf9dd484",
+        "email": "Ansley.Schroeder@roq.tech",
+        "firstName": "Jacinto",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/541.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tenant": [
+      {
+        "id": "0ec9c45d-dbd9-4932-bc13-1ab07b5d1244",
+        "rent_due_date": "2023-10-07T15:06:38.654Z",
+        "lease_start_date": "2023-10-08T06:12:54.040Z",
+        "lease_end_date": "2023-10-07T14:32:54.055Z",
+        "rent_amount": 76690,
+        "created_at": "2023-10-07T23:08:15.653Z",
+        "updated_at": "2023-10-08T09:07:24.996Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f39e9cf-ae1f-4a1e-a904-42a431d48277",
+        "rent_due_date": "2023-10-08T02:00:51.713Z",
+        "lease_start_date": "2023-10-08T11:11:02.297Z",
+        "lease_end_date": "2023-10-08T05:17:17.118Z",
+        "rent_amount": 78813,
+        "created_at": "2023-10-08T02:01:03.978Z",
+        "updated_at": "2023-10-08T10:33:51.073Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a4f7b9d-bba1-46a4-a3df-387862bdac13",
+        "rent_due_date": "2023-10-08T10:46:52.260Z",
+        "lease_start_date": "2023-10-08T14:17:44.526Z",
+        "lease_end_date": "2023-10-07T15:28:42.990Z",
+        "rent_amount": 68253,
+        "created_at": "2023-10-08T09:06:10.804Z",
+        "updated_at": "2023-10-08T05:49:31.623Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6dbd8098-cf1f-4d73-8f90-4275a148aacd",
+        "rent_due_date": "2023-10-08T03:08:50.296Z",
+        "lease_start_date": "2023-10-07T22:17:16.758Z",
+        "lease_end_date": "2023-10-08T07:54:49.917Z",
+        "rent_amount": 63297,
+        "created_at": "2023-10-08T13:01:19.616Z",
+        "updated_at": "2023-10-08T08:47:26.970Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26d4a31d-0ae7-41de-b6ab-14a2dab2d691",
+        "rent_due_date": "2023-10-08T01:49:46.203Z",
+        "lease_start_date": "2023-10-08T13:48:09.908Z",
+        "lease_end_date": "2023-10-08T05:16:54.375Z",
+        "rent_amount": 42559,
+        "created_at": "2023-10-08T05:27:42.791Z",
+        "updated_at": "2023-10-08T01:54:22.544Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_provider": [
+      {
+        "id": "be4412e9-9853-431c-91a4-fb3b8cefc767",
+        "service_type": "Plumber",
+        "availability": "Monday-Friday",
+        "rating": 68950,
+        "created_at": "2023-10-08T02:02:27.923Z",
+        "updated_at": "2023-10-08T02:31:00.255Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc8b6880-1761-4d0b-9653-8f4c2d7c747d",
+        "service_type": "Electrician",
+        "availability": "Weekends",
+        "rating": 63967,
+        "created_at": "2023-10-08T12:22:14.708Z",
+        "updated_at": "2023-10-08T01:19:51.723Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "824340a5-9236-48a0-aaa2-b0ec58cc409b",
+        "service_type": "Carpenter",
+        "availability": "Evenings",
+        "rating": 5421,
+        "created_at": "2023-10-08T07:15:16.949Z",
+        "updated_at": "2023-10-07T20:10:55.058Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40f82790-e1d3-40ab-a742-a55105976c6e",
+        "service_type": "Painter",
+        "availability": "24/7",
+        "rating": 94067,
+        "created_at": "2023-10-08T00:02:20.618Z",
+        "updated_at": "2023-10-07T19:46:16.226Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9cba5a69-889f-4171-8f22-1ce6408d92ad",
+        "service_type": "Gardener",
+        "availability": "By appointment",
+        "rating": 12225,
+        "created_at": "2023-10-07T15:29:55.606Z",
+        "updated_at": "2023-10-08T14:18:35.347Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "property": [
+      {
+        "id": "b4804496-e037-4b2f-b813-cf5c3e7b7833",
+        "name": "Cozy Cottage",
+        "address": "123 Main Street",
+        "tenant_id": "26d4a31d-0ae7-41de-b6ab-14a2dab2d691",
+        "property_type": "House",
+        "created_at": "2023-10-08T01:02:27.033Z",
+        "updated_at": "2023-10-07T16:22:42.656Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "7dece9e6-8497-4b7c-b3c0-91df584fd101",
+        "name": "Modern Apartment",
+        "address": "456 Elm Avenue",
+        "tenant_id": "26d4a31d-0ae7-41de-b6ab-14a2dab2d691",
+        "property_type": "Apartment",
+        "created_at": "2023-10-08T13:51:58.479Z",
+        "updated_at": "2023-10-08T04:18:56.551Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "6ae3b469-d0f0-408b-9298-ef5ef6dc606b",
+        "name": "Spacious Villa",
+        "address": "789 Oak Lane",
+        "tenant_id": "6dbd8098-cf1f-4d73-8f90-4275a148aacd",
+        "property_type": "Condo",
+        "created_at": "2023-10-08T13:37:09.307Z",
+        "updated_at": "2023-10-08T13:44:55.200Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "28b09a56-69b8-4600-90bf-b05f671cfd5c",
+        "name": "Charming Bungalow",
+        "address": "10 Maple Court",
+        "tenant_id": "0f39e9cf-ae1f-4a1e-a904-42a431d48277",
+        "property_type": "Townhouse",
+        "created_at": "2023-10-08T00:08:44.154Z",
+        "updated_at": "2023-10-08T14:20:47.640Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "7e5c1add-3d55-4bf5-91d9-ede8f4194682",
+        "name": "Luxury Penthouse",
+        "address": "111 Pine Road",
+        "tenant_id": "26d4a31d-0ae7-41de-b6ab-14a2dab2d691",
+        "property_type": "Duplex",
+        "created_at": "2023-10-08T04:05:50.390Z",
+        "updated_at": "2023-10-08T07:11:26.735Z",
+        "landlord_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "2c56e3cf-5a7f-4388-9872-0d00f5633a7b",
+        "visit_date": "2023-10-08T14:21:05.086Z",
+        "tenant_id": "0ec9c45d-dbd9-4932-bc13-1ab07b5d1244",
+        "visit_reason": "Vacation",
+        "created_at": "2023-10-08T06:19:36.744Z",
+        "updated_at": "2023-10-08T07:35:03.270Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b1fa4cb-7c10-4439-a91a-49b14d547f0b",
+        "visit_date": "2023-10-08T08:58:38.068Z",
+        "tenant_id": "0ec9c45d-dbd9-4932-bc13-1ab07b5d1244",
+        "visit_reason": "Business trip",
+        "created_at": "2023-10-07T22:34:35.722Z",
+        "updated_at": "2023-10-08T04:53:31.875Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bdb59dbd-1be9-49d8-9bb8-ad295eb55278",
+        "visit_date": "2023-10-08T12:09:03.406Z",
+        "tenant_id": "0f39e9cf-ae1f-4a1e-a904-42a431d48277",
+        "visit_reason": "Family visit",
+        "created_at": "2023-10-07T18:19:29.203Z",
+        "updated_at": "2023-10-08T07:50:06.428Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1e1ecc2-b26f-4508-b3f5-29908ec71bcd",
+        "visit_date": "2023-10-08T12:09:08.289Z",
+        "tenant_id": "0f39e9cf-ae1f-4a1e-a904-42a431d48277",
+        "visit_reason": "Attending an event",
+        "created_at": "2023-10-08T11:42:37.824Z",
+        "updated_at": "2023-10-08T00:58:05.330Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32ab4dfa-8951-4035-b557-b78628d3d996",
+        "visit_date": "2023-10-08T12:27:36.481Z",
+        "tenant_id": "0ec9c45d-dbd9-4932-bc13-1ab07b5d1244",
+        "visit_reason": "Exploring the area",
+        "created_at": "2023-10-07T18:21:06.020Z",
+        "updated_at": "2023-10-07T22:17:10.321Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fb49eb48-d0c3-419e-ab5e-b90f9c21e3e4",
+        "email": "Emmanuel_Hilpert@roq.tech",
+        "firstName": "Julie",
+        "lastName": "Kunde",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1106.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ce6a5036-1354-4fee-b845-32e82f03656b",
+        "email": "Judah_Stokes@roq.tech",
+        "firstName": "Chauncey",
+        "lastName": "West-Vandervort",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/508.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cce9f55d-bb24-4e13-9ae2-9913252cfbe1",
+        "email": "Jovany.Kreiger@roq.tech",
+        "firstName": "Dylan",
+        "lastName": "Deckow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29457954",
+        "tenantId": null
+      },
+      {
+        "reference": "abecb83d-fca9-426d-94f1-b82ea0ab8780",
+        "email": "Newton.Armstrong@roq.tech",
+        "firstName": "Roberto",
+        "lastName": "Stracke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22862325",
+        "tenantId": null
+      },
+      {
+        "reference": "724aa2dd-7a13-4990-93c6-4bfe5883f744",
+        "email": "Lorine_Kutch@roq.tech",
+        "firstName": "Jarod",
+        "lastName": "Jacobi",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/292.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tenant": [
+      {
+        "id": "fac805f6-4556-4e03-b420-c307b415b2dc",
+        "rent_due_date": "2023-10-07T15:20:25.533Z",
+        "lease_start_date": "2023-10-08T04:29:21.013Z",
+        "lease_end_date": "2023-10-08T06:10:53.967Z",
+        "rent_amount": 11305,
+        "created_at": "2023-10-07T20:38:48.092Z",
+        "updated_at": "2023-10-08T07:11:02.291Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af157078-66ad-4ee2-a637-13ff30fa508d",
+        "rent_due_date": "2023-10-08T13:58:10.177Z",
+        "lease_start_date": "2023-10-07T15:48:51.596Z",
+        "lease_end_date": "2023-10-08T06:19:16.299Z",
+        "rent_amount": 27519,
+        "created_at": "2023-10-07T18:03:59.025Z",
+        "updated_at": "2023-10-08T11:07:07.475Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "254e8f95-dbff-484e-a2d2-c0d6611770cd",
+        "rent_due_date": "2023-10-08T04:21:38.580Z",
+        "lease_start_date": "2023-10-08T00:32:44.583Z",
+        "lease_end_date": "2023-10-07T18:40:35.646Z",
+        "rent_amount": 87195,
+        "created_at": "2023-10-07T19:03:55.279Z",
+        "updated_at": "2023-10-07T20:16:13.623Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "508a0391-6d67-4944-b62e-1e5a7f8455b9",
+        "rent_due_date": "2023-10-07T16:29:20.901Z",
+        "lease_start_date": "2023-10-08T09:22:06.508Z",
+        "lease_end_date": "2023-10-08T14:25:15.416Z",
+        "rent_amount": 73369,
+        "created_at": "2023-10-08T05:12:37.223Z",
+        "updated_at": "2023-10-08T03:08:28.636Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "214bfe46-3ccd-425f-9ca7-9dfa3ab4e4fd",
+        "rent_due_date": "2023-10-08T03:21:20.602Z",
+        "lease_start_date": "2023-10-08T09:36:12.291Z",
+        "lease_end_date": "2023-10-07T20:09:54.705Z",
+        "rent_amount": 90289,
+        "created_at": "2023-10-08T13:09:11.261Z",
+        "updated_at": "2023-10-08T12:54:19.713Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_provider": [
+      {
+        "id": "dcc8892a-3578-4c3b-ade6-7a48f9df740d",
+        "service_type": "Plumber",
+        "availability": "Monday-Friday",
+        "rating": 19723,
+        "created_at": "2023-10-07T23:26:15.492Z",
+        "updated_at": "2023-10-08T12:44:06.186Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38eb3f16-9830-443f-acdd-505ec8251529",
+        "service_type": "Electrician",
+        "availability": "Weekends",
+        "rating": 71016,
+        "created_at": "2023-10-07T14:55:38.327Z",
+        "updated_at": "2023-10-07T22:15:05.809Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "461f69f3-f03f-4e86-a6be-38866021d9f8",
+        "service_type": "Carpenter",
+        "availability": "Evenings",
+        "rating": 11404,
+        "created_at": "2023-10-07T18:57:42.195Z",
+        "updated_at": "2023-10-07T19:57:40.524Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5c8ac94-e789-4631-978f-c3c36778d8ec",
+        "service_type": "Gardener",
+        "availability": "24/7",
+        "rating": 97863,
+        "created_at": "2023-10-08T07:44:44.076Z",
+        "updated_at": "2023-10-08T11:54:02.096Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5275031-3145-436a-b7f5-70fb63bf4b80",
+        "service_type": "Painter",
+        "availability": "On Call",
+        "rating": 35903,
+        "created_at": "2023-10-07T17:54:22.682Z",
+        "updated_at": "2023-10-07T19:26:28.296Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "property": [
+      {
+        "id": "3a563044-77d5-433f-a1f7-ae1dc92f8e37",
+        "name": "Sunny Gardens",
+        "address": "123 Main Street",
+        "tenant_id": "254e8f95-dbff-484e-a2d2-c0d6611770cd",
+        "property_type": "Single Family Home",
+        "created_at": "2023-10-07T15:15:02.329Z",
+        "updated_at": "2023-10-08T04:59:11.031Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "9ea255be-18fb-4808-a86b-f680803a5946",
+        "name": "Lakeview Manor",
+        "address": "456 Elm Avenue",
+        "tenant_id": "af157078-66ad-4ee2-a637-13ff30fa508d",
+        "property_type": "Apartment",
+        "created_at": "2023-10-07T18:56:59.291Z",
+        "updated_at": "2023-10-08T03:19:48.623Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "37bb9b91-8a63-4dc9-bdd3-b1584651e929",
+        "name": "Mountain Retreat",
+        "address": "789 Oak Drive",
+        "tenant_id": "fac805f6-4556-4e03-b420-c307b415b2dc",
+        "property_type": "Townhouse",
+        "created_at": "2023-10-08T10:03:56.775Z",
+        "updated_at": "2023-10-07T23:20:40.022Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "f8d3948d-e732-451e-a656-1c16109e451b",
+        "name": "Ocean Breeze",
+        "address": "101 Maple Lane",
+        "tenant_id": "af157078-66ad-4ee2-a637-13ff30fa508d",
+        "property_type": "Condo",
+        "created_at": "2023-10-07T20:48:00.836Z",
+        "updated_at": "2023-10-08T09:36:29.154Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "fe9bf2f6-4e85-453d-af45-2f122c58141e",
+        "name": "Cityscape Condos",
+        "address": "202 Pine Road",
+        "tenant_id": "508a0391-6d67-4944-b62e-1e5a7f8455b9",
+        "property_type": "Vacation Rental",
+        "created_at": "2023-10-07T19:24:54.591Z",
+        "updated_at": "2023-10-08T08:02:26.992Z",
+        "landlord_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "c8595592-ca1c-4802-aa69-30d1f86c05d3",
+        "visit_date": "2023-10-07T23:21:55.764Z",
+        "tenant_id": "254e8f95-dbff-484e-a2d2-c0d6611770cd",
+        "visit_reason": "Family vacation",
+        "created_at": "2023-10-07T23:16:19.303Z",
+        "updated_at": "2023-10-08T08:17:06.354Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf6dc8b0-dfa9-4202-a45a-056c35c71264",
+        "visit_date": "2023-10-07T19:34:57.037Z",
+        "tenant_id": "254e8f95-dbff-484e-a2d2-c0d6611770cd",
+        "visit_reason": "Business trip",
+        "created_at": "2023-10-07T16:36:08.477Z",
+        "updated_at": "2023-10-07T16:26:35.430Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b59e924f-13f0-4084-aa9a-9a48fd916e00",
+        "visit_date": "2023-10-08T09:46:12.398Z",
+        "tenant_id": "508a0391-6d67-4944-b62e-1e5a7f8455b9",
+        "visit_reason": "Wedding",
+        "created_at": "2023-10-08T04:22:40.873Z",
+        "updated_at": "2023-10-08T05:12:50.172Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c29b11fe-b050-45a9-a243-833a2f6386c4",
+        "visit_date": "2023-10-08T02:39:06.645Z",
+        "tenant_id": "af157078-66ad-4ee2-a637-13ff30fa508d",
+        "visit_reason": "Sightseeing",
+        "created_at": "2023-10-07T21:14:18.085Z",
+        "updated_at": "2023-10-07T18:18:12.093Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9af7b8b-5115-484d-9c22-7fb85700dc58",
+        "visit_date": "2023-10-08T07:12:30.327Z",
+        "tenant_id": "214bfe46-3ccd-425f-9ca7-9dfa3ab4e4fd",
+        "visit_reason": "Relaxation",
+        "created_at": "2023-10-08T11:12:11.084Z",
+        "updated_at": "2023-10-08T06:35:24.180Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "462c451d-e56b-4702-b200-159fe7ecb4b3",
+        "email": "Judson.Cruickshank52@roq.tech",
+        "firstName": "Kassandra",
+        "lastName": "Vandervort",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/286.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "22364e1d-15b6-4682-bece-4a9d768aa6ab",
+        "email": "Corine.Herzog@roq.tech",
+        "firstName": "Theo",
+        "lastName": "Gutkowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28306850",
+        "tenantId": null
+      },
+      {
+        "reference": "916d30d5-ae4a-485d-b619-48f6609e0b2d",
+        "email": "Elfrieda_Bauch@roq.tech",
+        "firstName": "Alvis",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1150.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ace10009-476e-4afb-a934-0fdb11d5fe5e",
+        "email": "Cory52@roq.tech",
+        "firstName": "Brielle",
+        "lastName": "Hammes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52899745",
+        "tenantId": null
+      },
+      {
+        "reference": "717b3c0d-c4f6-41da-a1b6-25d55ddd2eb0",
+        "email": "Paris_Sipes5@roq.tech",
+        "firstName": "Juliana",
+        "lastName": "Rolfson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77692345",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tenant": [
+      {
+        "id": "f07c36d5-9eb5-42d4-ad6e-883198ed9c63",
+        "rent_due_date": "2023-10-08T07:57:10.283Z",
+        "lease_start_date": "2023-10-08T10:32:36.637Z",
+        "lease_end_date": "2023-10-08T02:13:21.112Z",
+        "rent_amount": 69038,
+        "created_at": "2023-10-08T10:11:58.063Z",
+        "updated_at": "2023-10-08T00:09:14.195Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05341313-fbf3-4cb0-82e3-c8ba13751eab",
+        "rent_due_date": "2023-10-08T03:55:45.312Z",
+        "lease_start_date": "2023-10-07T17:50:38.650Z",
+        "lease_end_date": "2023-10-07T21:48:26.380Z",
+        "rent_amount": 45636,
+        "created_at": "2023-10-08T12:30:28.118Z",
+        "updated_at": "2023-10-08T03:24:07.380Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72586490-35af-4bf0-a21b-c83141cf2aba",
+        "rent_due_date": "2023-10-08T02:22:35.768Z",
+        "lease_start_date": "2023-10-07T16:38:09.914Z",
+        "lease_end_date": "2023-10-07T20:52:29.599Z",
+        "rent_amount": 5139,
+        "created_at": "2023-10-08T01:21:03.308Z",
+        "updated_at": "2023-10-08T06:43:35.068Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8083fc21-9644-4936-8ebb-4c474196ce87",
+        "rent_due_date": "2023-10-08T06:36:57.244Z",
+        "lease_start_date": "2023-10-07T21:17:46.177Z",
+        "lease_end_date": "2023-10-08T07:42:42.855Z",
+        "rent_amount": 33518,
+        "created_at": "2023-10-07T19:49:21.636Z",
+        "updated_at": "2023-10-07T16:52:00.129Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d552e165-4416-4e69-9548-f00ffff9d913",
+        "rent_due_date": "2023-10-07T18:54:17.777Z",
+        "lease_start_date": "2023-10-08T08:10:33.926Z",
+        "lease_end_date": "2023-10-07T23:53:29.656Z",
+        "rent_amount": 43269,
+        "created_at": "2023-10-08T05:32:42.437Z",
+        "updated_at": "2023-10-08T07:08:51.986Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_provider": [
+      {
+        "id": "40893123-8e3b-4cc3-a7f8-c204f78acfc6",
+        "service_type": "Plumber",
+        "availability": "Monday to Friday",
+        "rating": 33934,
+        "created_at": "2023-10-07T18:44:29.428Z",
+        "updated_at": "2023-10-07T19:20:22.253Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62003fda-8936-45c0-b732-fe10c5777170",
+        "service_type": "Electrician",
+        "availability": "Weekends",
+        "rating": 95260,
+        "created_at": "2023-10-08T10:35:22.217Z",
+        "updated_at": "2023-10-08T11:52:34.468Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "accb9e2e-6df9-4c2c-ae97-26f7c8e6b537",
+        "service_type": "Carpenter",
+        "availability": "Evenings",
+        "rating": 22976,
+        "created_at": "2023-10-07T16:26:27.944Z",
+        "updated_at": "2023-10-08T02:48:16.925Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3220a9a1-3844-4853-8891-c6fb17af7cae",
+        "service_type": "Painter",
+        "availability": "24/7",
+        "rating": 16726,
+        "created_at": "2023-10-08T09:56:47.401Z",
+        "updated_at": "2023-10-08T10:09:00.398Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9997f85-7967-4720-93ef-2cbb01c27888",
+        "service_type": "Gardener",
+        "availability": "By Appointment",
+        "rating": 12506,
+        "created_at": "2023-10-07T20:18:18.633Z",
+        "updated_at": "2023-10-08T00:21:43.342Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "property": [
+      {
+        "id": "df072f91-6fc5-46f6-8256-d4acb8c41b51",
+        "name": "Cozy Cottage",
+        "address": "123 Main Street",
+        "tenant_id": "f07c36d5-9eb5-42d4-ad6e-883198ed9c63",
+        "property_type": "Apartment",
+        "created_at": "2023-10-08T05:26:33.347Z",
+        "updated_at": "2023-10-07T16:47:14.786Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "ec3c955e-526d-4923-be53-c3b2b15d2b07",
+        "name": "Sunny Villa",
+        "address": "456 Park Avenue",
+        "tenant_id": "8083fc21-9644-4936-8ebb-4c474196ce87",
+        "property_type": "House",
+        "created_at": "2023-10-08T05:24:54.031Z",
+        "updated_at": "2023-10-07T21:28:41.472Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "810adcfa-f884-4a2c-8a58-7acab70de867",
+        "name": "City Loft",
+        "address": "789 Elm Road",
+        "tenant_id": "d552e165-4416-4e69-9548-f00ffff9d913",
+        "property_type": "Condo",
+        "created_at": "2023-10-08T07:11:55.552Z",
+        "updated_at": "2023-10-08T10:06:22.771Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "939f0355-f06b-4e0a-aaf2-93653ba409dd",
+        "name": "Rustic Farmhouse",
+        "address": "321 Oak Lane",
+        "tenant_id": "f07c36d5-9eb5-42d4-ad6e-883198ed9c63",
+        "property_type": "Townhouse",
+        "created_at": "2023-10-08T06:17:47.755Z",
+        "updated_at": "2023-10-08T08:24:21.513Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "7208e511-15ac-4116-9976-6def80379eb7",
+        "name": "Luxury Penthouse",
+        "address": "654 Maple Drive",
+        "tenant_id": "d552e165-4416-4e69-9548-f00ffff9d913",
+        "property_type": "Villa",
+        "created_at": "2023-10-07T23:52:29.026Z",
+        "updated_at": "2023-10-08T08:38:39.213Z",
+        "landlord_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "943f025c-93d3-4a64-a7ae-09631d777233",
+        "visit_date": "2023-10-08T07:37:27.840Z",
+        "tenant_id": "05341313-fbf3-4cb0-82e3-c8ba13751eab",
+        "visit_reason": "Vacation",
+        "created_at": "2023-10-08T00:43:46.040Z",
+        "updated_at": "2023-10-07T19:22:22.624Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "86da010e-e10d-46cb-995a-09488cb87654",
+        "visit_date": "2023-10-08T08:48:53.892Z",
+        "tenant_id": "72586490-35af-4bf0-a21b-c83141cf2aba",
+        "visit_reason": "Business Trip",
+        "created_at": "2023-10-08T07:21:54.860Z",
+        "updated_at": "2023-10-07T16:37:54.602Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b000bca-a56f-4947-8dd2-92303e7c72e2",
+        "visit_date": "2023-10-07T19:01:22.793Z",
+        "tenant_id": "d552e165-4416-4e69-9548-f00ffff9d913",
+        "visit_reason": "Family Visit",
+        "created_at": "2023-10-08T03:01:12.775Z",
+        "updated_at": "2023-10-08T00:32:16.566Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71e220b0-33ad-4dbe-a57f-6b7061bfd098",
+        "visit_date": "2023-10-08T13:36:15.663Z",
+        "tenant_id": "05341313-fbf3-4cb0-82e3-c8ba13751eab",
+        "visit_reason": "Wedding",
+        "created_at": "2023-10-08T05:44:56.611Z",
+        "updated_at": "2023-10-07T21:15:28.371Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcb35835-f6d5-4531-a76c-f3bbcfd6055f",
+        "visit_date": "2023-10-07T22:45:44.319Z",
+        "tenant_id": "05341313-fbf3-4cb0-82e3-c8ba13751eab",
+        "visit_reason": "Sightseeing",
+        "created_at": "2023-10-08T11:24:46.907Z",
+        "updated_at": "2023-10-08T08:56:25.363Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4947cd0c-29c5-4ecd-a0e8-db479e18bacb",
+        "email": "Maximillia_Cremin74@roq.tech",
+        "firstName": "Ferne",
+        "lastName": "Durgan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55354837",
+        "tenantId": null
+      },
+      {
+        "reference": "bb538ae6-08ac-4b08-a44b-641a41b54ebd",
+        "email": "Sammy.White63@roq.tech",
+        "firstName": "Vinnie",
+        "lastName": "Brekke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9265339",
+        "tenantId": null
+      },
+      {
+        "reference": "f803304f-4391-4290-ac74-74e60a539a68",
+        "email": "Yolanda54@roq.tech",
+        "firstName": "Adrian",
+        "lastName": "Botsford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39885946",
+        "tenantId": null
+      },
+      {
+        "reference": "f7baf4b5-4c9b-487c-bc7e-47f77663e834",
+        "email": "Mateo_Bauch@roq.tech",
+        "firstName": "Addison",
+        "lastName": "Waelchi",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/894.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "600011ce-a285-4080-9568-c213d37d7df5",
+        "email": "Alysson.Muller27@roq.tech",
+        "firstName": "Timmothy",
+        "lastName": "Herman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71829738",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tenant": [
+      {
+        "id": "6fca6610-a1cc-4956-b47c-89a5280e7681",
+        "rent_due_date": "2023-10-08T02:46:54.447Z",
+        "lease_start_date": "2023-10-08T08:53:04.666Z",
+        "lease_end_date": "2023-10-07T18:28:54.569Z",
+        "rent_amount": 42445,
+        "created_at": "2023-10-07T18:27:00.103Z",
+        "updated_at": "2023-10-07T19:33:46.768Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "156e7a81-588d-483a-a5ee-60dcd869b2a8",
+        "rent_due_date": "2023-10-08T06:16:08.007Z",
+        "lease_start_date": "2023-10-07T15:03:59.839Z",
+        "lease_end_date": "2023-10-08T01:53:48.628Z",
+        "rent_amount": 32664,
+        "created_at": "2023-10-08T06:51:09.333Z",
+        "updated_at": "2023-10-07T18:59:46.473Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "367a521a-0d46-4184-95a8-291e12457d86",
+        "rent_due_date": "2023-10-08T06:32:34.555Z",
+        "lease_start_date": "2023-10-08T02:08:29.353Z",
+        "lease_end_date": "2023-10-07T16:24:19.899Z",
+        "rent_amount": 7615,
+        "created_at": "2023-10-07T14:59:45.687Z",
+        "updated_at": "2023-10-08T08:47:29.400Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8d461da-e6f8-4bf1-8183-be4a3b5f382f",
+        "rent_due_date": "2023-10-08T10:42:20.029Z",
+        "lease_start_date": "2023-10-07T20:42:17.255Z",
+        "lease_end_date": "2023-10-08T11:04:14.729Z",
+        "rent_amount": 26968,
+        "created_at": "2023-10-08T04:58:08.045Z",
+        "updated_at": "2023-10-07T15:27:29.922Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee81b707-8825-4ca0-89dd-46522ab8120c",
+        "rent_due_date": "2023-10-07T18:13:10.065Z",
+        "lease_start_date": "2023-10-08T12:24:04.400Z",
+        "lease_end_date": "2023-10-07T16:51:10.768Z",
+        "rent_amount": 80552,
+        "created_at": "2023-10-08T05:05:49.981Z",
+        "updated_at": "2023-10-08T14:05:40.269Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_provider": [
+      {
+        "id": "db1b7459-0e46-422e-899c-f0b61f82dea2",
+        "service_type": "Plumber",
+        "availability": "Monday to Friday",
+        "rating": 8046,
+        "created_at": "2023-10-07T20:02:30.324Z",
+        "updated_at": "2023-10-08T13:24:49.456Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2050d6a-c657-4bb9-bd7b-89fb379d55c1",
+        "service_type": "Electrician",
+        "availability": "Weekends only",
+        "rating": 11439,
+        "created_at": "2023-10-08T09:22:40.992Z",
+        "updated_at": "2023-10-08T11:22:28.138Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88f732aa-a453-408d-8fe3-90dca7f076d5",
+        "service_type": "Carpenter",
+        "availability": "24/7",
+        "rating": 50797,
+        "created_at": "2023-10-08T07:30:44.918Z",
+        "updated_at": "2023-10-08T09:15:03.446Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b595491-40ae-478f-9d23-b73de97896f6",
+        "service_type": "Painter",
+        "availability": "Evenings",
+        "rating": 49835,
+        "created_at": "2023-10-07T17:33:10.137Z",
+        "updated_at": "2023-10-08T07:54:14.601Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae963d26-e0a3-4507-8c4d-d546e76a69d5",
+        "service_type": "Gardener",
+        "availability": "Mornings",
+        "rating": 92784,
+        "created_at": "2023-10-08T01:04:32.416Z",
+        "updated_at": "2023-10-08T09:06:16.443Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "property": [
+      {
+        "id": "3c33c0f8-ad27-475b-b066-6f718ec63fda",
+        "name": "Sunset Villa",
+        "address": "123 Main Street",
+        "tenant_id": "156e7a81-588d-483a-a5ee-60dcd869b2a8",
+        "property_type": "House",
+        "created_at": "2023-10-08T03:30:15.552Z",
+        "updated_at": "2023-10-08T11:29:09.926Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "5d294ee0-05b2-4e7a-b086-1d0778a2202c",
+        "name": "Green Acres",
+        "address": "456 Elm Avenue",
+        "tenant_id": "ee81b707-8825-4ca0-89dd-46522ab8120c",
+        "property_type": "Apartment",
+        "created_at": "2023-10-08T08:11:40.497Z",
+        "updated_at": "2023-10-08T08:32:46.110Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "5ff8fadb-014b-45c2-be28-0dbef8ac6e87",
+        "name": "City Loft",
+        "address": "789 Oak Lane",
+        "tenant_id": "367a521a-0d46-4184-95a8-291e12457d86",
+        "property_type": "Condo",
+        "created_at": "2023-10-08T00:28:43.813Z",
+        "updated_at": "2023-10-07T20:50:32.832Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "d5aa8f8d-f5a9-4adb-ac48-5334ae64b03c",
+        "name": "Seaside Retreat",
+        "address": "321 Pine Road",
+        "tenant_id": "ee81b707-8825-4ca0-89dd-46522ab8120c",
+        "property_type": "Cabin",
+        "created_at": "2023-10-08T11:53:10.868Z",
+        "updated_at": "2023-10-07T18:45:46.182Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "2bd30ced-f58a-4b1c-8445-5c107ffead14",
+        "name": "Mountain Haven",
+        "address": "654 Maple Court",
+        "tenant_id": "367a521a-0d46-4184-95a8-291e12457d86",
+        "property_type": "Villa",
+        "created_at": "2023-10-08T01:16:26.658Z",
+        "updated_at": "2023-10-08T08:16:06.380Z",
+        "landlord_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "aa1cd659-cc01-4fb0-b682-324542adaaf4",
+        "visit_date": "2023-10-08T02:57:06.162Z",
+        "tenant_id": "a8d461da-e6f8-4bf1-8183-be4a3b5f382f",
+        "visit_reason": "Vacation",
+        "created_at": "2023-10-08T02:42:03.830Z",
+        "updated_at": "2023-10-08T13:06:28.806Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "683c15c1-65e1-446d-b4a2-fa73bf2e0cf5",
+        "visit_date": "2023-10-07T17:24:17.723Z",
+        "tenant_id": "a8d461da-e6f8-4bf1-8183-be4a3b5f382f",
+        "visit_reason": "Business trip",
+        "created_at": "2023-10-08T03:38:17.654Z",
+        "updated_at": "2023-10-08T07:18:21.663Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eadb3076-e7ba-45f2-945e-2e11a75535d3",
+        "visit_date": "2023-10-08T01:30:14.105Z",
+        "tenant_id": "ee81b707-8825-4ca0-89dd-46522ab8120c",
+        "visit_reason": "Family visit",
+        "created_at": "2023-10-08T00:07:27.540Z",
+        "updated_at": "2023-10-08T01:24:54.759Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1dd850d-d933-445d-be62-2dc022ea8f51",
+        "visit_date": "2023-10-07T22:38:00.744Z",
+        "tenant_id": "ee81b707-8825-4ca0-89dd-46522ab8120c",
+        "visit_reason": "Wedding",
+        "created_at": "2023-10-07T22:10:08.553Z",
+        "updated_at": "2023-10-07T21:18:10.257Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2963a646-5800-4ff6-ae8f-b6e37a982e31",
+        "visit_date": "2023-10-07T15:07:52.655Z",
+        "tenant_id": "367a521a-0d46-4184-95a8-291e12457d86",
+        "visit_reason": "Sightseeing",
+        "created_at": "2023-10-08T06:01:27.469Z",
+        "updated_at": "2023-10-07T19:10:30.339Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c8cac327-c38e-4da2-9051-2b2e3dc52f69",
+        "email": "Rocky.Abshire@roq.tech",
+        "firstName": "Tressa",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/62.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f8efb981-31a2-4cd6-b80d-5cae05943b39",
+        "email": "Otilia_Willms33@roq.tech",
+        "firstName": "Devante",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/94.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f473181c-9ee2-43b8-86ad-fa0c8560dbb3",
+        "email": "Jakob51@roq.tech",
+        "firstName": "Clemens",
+        "lastName": "Dickens",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8365792",
+        "tenantId": null
+      },
+      {
+        "reference": "e08ebe92-02e6-407c-83bb-170e80a57fb5",
+        "email": "Breana_Rodriguez93@roq.tech",
+        "firstName": "Noe",
+        "lastName": "Stiedemann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13236033",
+        "tenantId": null
+      },
+      {
+        "reference": "278ffcd2-6bf2-4118-912c-334c94ea8cfb",
+        "email": "Wilfred32@roq.tech",
+        "firstName": "Abdullah",
+        "lastName": "Lehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87771841",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tenant": [
+      {
+        "id": "aa3f4fb5-9a3d-498d-92ff-44bec2bda990",
+        "rent_due_date": "2023-10-07T21:17:45.663Z",
+        "lease_start_date": "2023-10-07T17:02:50.880Z",
+        "lease_end_date": "2023-10-07T22:10:21.482Z",
+        "rent_amount": 16690,
+        "created_at": "2023-10-07T18:03:03.873Z",
+        "updated_at": "2023-10-07T22:27:39.561Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54725155-c685-49bf-abeb-3c16d267e6d4",
+        "rent_due_date": "2023-10-08T13:22:11.447Z",
+        "lease_start_date": "2023-10-07T18:33:20.859Z",
+        "lease_end_date": "2023-10-08T06:07:39.809Z",
+        "rent_amount": 15605,
+        "created_at": "2023-10-08T04:51:28.887Z",
+        "updated_at": "2023-10-07T21:11:43.643Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b1605ca-5d02-4ca2-a4b2-bb30ff839b7e",
+        "rent_due_date": "2023-10-08T13:12:02.310Z",
+        "lease_start_date": "2023-10-08T13:03:10.532Z",
+        "lease_end_date": "2023-10-07T17:57:08.855Z",
+        "rent_amount": 39840,
+        "created_at": "2023-10-08T11:13:12.101Z",
+        "updated_at": "2023-10-08T06:19:27.469Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "689cd57f-e89f-4bd7-9707-bb777ad18a68",
+        "rent_due_date": "2023-10-08T00:41:56.700Z",
+        "lease_start_date": "2023-10-08T05:23:57.979Z",
+        "lease_end_date": "2023-10-07T23:17:54.991Z",
+        "rent_amount": 4634,
+        "created_at": "2023-10-07T19:32:44.280Z",
+        "updated_at": "2023-10-08T08:20:13.049Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79a3e20d-2f80-4da2-b126-9c4d13ae1545",
+        "rent_due_date": "2023-10-07T16:09:50.556Z",
+        "lease_start_date": "2023-10-08T05:53:21.746Z",
+        "lease_end_date": "2023-10-08T09:14:31.874Z",
+        "rent_amount": 88050,
+        "created_at": "2023-10-07T14:54:49.731Z",
+        "updated_at": "2023-10-08T00:20:05.012Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_provider": [
+      {
+        "id": "574e0bcf-57ae-4f51-814f-202708a99877",
+        "service_type": "Plumber",
+        "availability": "Monday to Friday",
+        "rating": 17322,
+        "created_at": "2023-10-08T04:18:57.005Z",
+        "updated_at": "2023-10-08T02:25:39.069Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bfabf981-1676-4cd0-b3ef-bf0709372c39",
+        "service_type": "Electrician",
+        "availability": "Weekends only",
+        "rating": 79040,
+        "created_at": "2023-10-08T07:25:24.075Z",
+        "updated_at": "2023-10-07T19:17:33.261Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49c6955f-c307-4af9-ab19-7f2d5e44c100",
+        "service_type": "Carpenter",
+        "availability": "24/7",
+        "rating": 55023,
+        "created_at": "2023-10-07T18:26:51.879Z",
+        "updated_at": "2023-10-08T02:41:51.278Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8dd18fd-9085-4723-80ed-9792d01a9e8b",
+        "service_type": "Painter",
+        "availability": "Flexible hours",
+        "rating": 98559,
+        "created_at": "2023-10-08T14:01:12.280Z",
+        "updated_at": "2023-10-08T11:45:33.335Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b83c579c-b0f1-43be-b371-072b534f5499",
+        "service_type": "Gardener",
+        "availability": "Evenings only",
+        "rating": 89604,
+        "created_at": "2023-10-08T11:45:53.020Z",
+        "updated_at": "2023-10-07T17:33:46.946Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "property": [
+      {
+        "id": "1a27ab83-9953-4c1f-adfb-031948505d5c",
+        "name": "Sunset Villa",
+        "address": "123 Main Street",
+        "tenant_id": "aa3f4fb5-9a3d-498d-92ff-44bec2bda990",
+        "property_type": "Apartment",
+        "created_at": "2023-10-08T02:32:45.230Z",
+        "updated_at": "2023-10-08T13:49:04.500Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "4d610e02-e387-41f3-b725-1e9805957a8a",
+        "name": "Oakwood Cottage",
+        "address": "456 Elm Avenue",
+        "tenant_id": "54725155-c685-49bf-abeb-3c16d267e6d4",
+        "property_type": "Cottage",
+        "created_at": "2023-10-07T17:21:36.470Z",
+        "updated_at": "2023-10-07T19:56:44.959Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "5dcdf306-2eb0-4871-9348-dd488c0eaa5f",
+        "name": "City View Townhouse",
+        "address": "789 Oak Lane",
+        "tenant_id": "79a3e20d-2f80-4da2-b126-9c4d13ae1545",
+        "property_type": "Townhouse",
+        "created_at": "2023-10-08T11:23:59.440Z",
+        "updated_at": "2023-10-08T03:00:24.557Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "1f5191e2-0592-4059-8378-4d847d03a5bd",
+        "name": "Meadow Farmhouse",
+        "address": "10 Maple Court",
+        "tenant_id": "aa3f4fb5-9a3d-498d-92ff-44bec2bda990",
+        "property_type": "Farmhouse",
+        "created_at": "2023-10-08T02:09:29.069Z",
+        "updated_at": "2023-10-08T03:49:06.642Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "9f416344-6748-4d63-a991-3c4ecc3b58de",
+        "name": "Skyline Penthouse",
+        "address": "111 Pine Road",
+        "tenant_id": "689cd57f-e89f-4bd7-9707-bb777ad18a68",
+        "property_type": "Penthouse",
+        "created_at": "2023-10-08T09:17:36.627Z",
+        "updated_at": "2023-10-08T04:19:16.417Z",
+        "landlord_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "41ba788d-2357-446e-8057-1eff06a7c20f",
+        "visit_date": "2023-10-08T09:02:39.205Z",
+        "tenant_id": "4b1605ca-5d02-4ca2-a4b2-bb30ff839b7e",
+        "visit_reason": "Vacation",
+        "created_at": "2023-10-08T10:46:31.440Z",
+        "updated_at": "2023-10-08T04:57:46.940Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52aa43f7-3787-4570-b7c7-e1c4430e19b4",
+        "visit_date": "2023-10-08T07:22:15.937Z",
+        "tenant_id": "54725155-c685-49bf-abeb-3c16d267e6d4",
+        "visit_reason": "Business trip",
+        "created_at": "2023-10-07T17:33:03.595Z",
+        "updated_at": "2023-10-07T22:25:08.136Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "affcc604-87ca-4950-944c-a76d3840fe7b",
+        "visit_date": "2023-10-07T16:46:37.331Z",
+        "tenant_id": "79a3e20d-2f80-4da2-b126-9c4d13ae1545",
+        "visit_reason": "Family visit",
+        "created_at": "2023-10-08T12:24:27.367Z",
+        "updated_at": "2023-10-08T04:15:03.815Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c9bc2df-f8ea-41c2-96ca-bed06c20b989",
+        "visit_date": "2023-10-08T02:20:40.104Z",
+        "tenant_id": "689cd57f-e89f-4bd7-9707-bb777ad18a68",
+        "visit_reason": "Wedding",
+        "created_at": "2023-10-07T21:07:57.105Z",
+        "updated_at": "2023-10-07T19:28:49.072Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa5129e8-1349-473f-9bc6-77d5f8a33615",
+        "visit_date": "2023-10-08T08:03:57.926Z",
+        "tenant_id": "79a3e20d-2f80-4da2-b126-9c4d13ae1545",
+        "visit_reason": "Sightseeing",
+        "created_at": "2023-10-08T07:46:13.483Z",
+        "updated_at": "2023-10-07T19:04:35.176Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e6c25221-92d8-4ad2-a675-6532bb10eb1f",
+        "email": "Khalid82@roq.tech",
+        "firstName": "Estell",
+        "lastName": "Beer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1205.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fe08699a-dd45-4361-96a5-400e89c1efbe",
+        "email": "Daniela_Morissette@roq.tech",
+        "firstName": "Morgan",
+        "lastName": "Robel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95323111",
+        "tenantId": null
+      },
+      {
+        "reference": "3273f1fa-d5bc-4e9e-b40c-e7f5ddcf9624",
+        "email": "Marjory_Lueilwitz11@roq.tech",
+        "firstName": "Cali",
+        "lastName": "Reichel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1094.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3c384d64-7cf5-4cd8-a340-026bf0916d05",
+        "email": "Sienna30@roq.tech",
+        "firstName": "Leonie",
+        "lastName": "Jacobs",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/845.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d10e8397-e31c-49d8-8a15-8ecccfa7ff44",
+        "email": "Margot.Baumbach95@roq.tech",
+        "firstName": "Nikolas",
+        "lastName": "Feil",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35125992",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tenant": [
+      {
+        "id": "fb8362ac-00ac-42c2-977a-b6a202063389",
+        "rent_due_date": "2023-10-08T04:30:19.648Z",
+        "lease_start_date": "2023-10-08T14:09:56.543Z",
+        "lease_end_date": "2023-10-08T05:20:38.501Z",
+        "rent_amount": 81265,
+        "created_at": "2023-10-07T19:37:58.075Z",
+        "updated_at": "2023-10-07T22:30:53.242Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d8cccdc-af37-4bda-9305-5fc6a359f90b",
+        "rent_due_date": "2023-10-07T21:55:58.575Z",
+        "lease_start_date": "2023-10-08T10:53:45.325Z",
+        "lease_end_date": "2023-10-08T09:00:17.661Z",
+        "rent_amount": 98876,
+        "created_at": "2023-10-07T23:32:27.529Z",
+        "updated_at": "2023-10-07T21:34:14.056Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "36c80405-db5d-4887-bc3b-947ac1bf3971",
+        "rent_due_date": "2023-10-07T23:49:52.321Z",
+        "lease_start_date": "2023-10-08T07:33:53.464Z",
+        "lease_end_date": "2023-10-07T15:52:03.575Z",
+        "rent_amount": 24720,
+        "created_at": "2023-10-07T20:00:36.057Z",
+        "updated_at": "2023-10-08T10:12:50.308Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1bbe1a0b-ff22-466e-a608-bf91c65982bc",
+        "rent_due_date": "2023-10-07T14:42:27.960Z",
+        "lease_start_date": "2023-10-07T21:19:34.334Z",
+        "lease_end_date": "2023-10-08T03:22:28.220Z",
+        "rent_amount": 58258,
+        "created_at": "2023-10-07T16:28:41.013Z",
+        "updated_at": "2023-10-08T03:31:17.574Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed647286-e1e3-4e20-9732-474f8d570c7b",
+        "rent_due_date": "2023-10-08T09:45:45.089Z",
+        "lease_start_date": "2023-10-08T13:30:07.619Z",
+        "lease_end_date": "2023-10-08T02:17:38.935Z",
+        "rent_amount": 86828,
+        "created_at": "2023-10-08T04:14:38.759Z",
+        "updated_at": "2023-10-08T13:37:28.943Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_provider": [
+      {
+        "id": "f12d9916-fc6d-4dbc-94e4-f643fe833cbc",
+        "service_type": "Plumber",
+        "availability": "Monday to Friday",
+        "rating": 26891,
+        "created_at": "2023-10-07T23:58:45.005Z",
+        "updated_at": "2023-10-08T07:58:25.580Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "005d7891-6dc9-4734-8978-a24a0a540213",
+        "service_type": "Electrician",
+        "availability": "Weekends",
+        "rating": 6594,
+        "created_at": "2023-10-07T23:12:49.432Z",
+        "updated_at": "2023-10-07T19:39:51.016Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8fdd06f8-c897-437a-97ef-3c4e86455dac",
+        "service_type": "Gardener",
+        "availability": "Evenings",
+        "rating": 7441,
+        "created_at": "2023-10-07T20:33:07.177Z",
+        "updated_at": "2023-10-08T07:53:53.087Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d10a736b-7289-4398-8403-69a32772e5d3",
+        "service_type": "Painter",
+        "availability": "Flexible",
+        "rating": 21669,
+        "created_at": "2023-10-07T22:38:07.209Z",
+        "updated_at": "2023-10-08T03:04:14.143Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6316fcf9-91f7-49c1-a9ec-bf584a6899ed",
+        "service_type": "Carpenter",
+        "availability": "24/7",
+        "rating": 62276,
+        "created_at": "2023-10-08T02:55:35.143Z",
+        "updated_at": "2023-10-08T04:59:45.358Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "property": [
+      {
+        "id": "6b00ae3a-fdd6-4033-8551-d077d2e6ffbb",
+        "name": "Sunset Villa",
+        "address": "123 Main Street",
+        "tenant_id": "9d8cccdc-af37-4bda-9305-5fc6a359f90b",
+        "property_type": "House",
+        "created_at": "2023-10-08T00:53:24.216Z",
+        "updated_at": "2023-10-08T13:02:02.936Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "9978ef3b-76b9-4a1e-a502-588af558c757",
+        "name": "Greenwood Manor",
+        "address": "456 Elm Avenue",
+        "tenant_id": "36c80405-db5d-4887-bc3b-947ac1bf3971",
+        "property_type": "Apartment",
+        "created_at": "2023-10-08T02:18:00.388Z",
+        "updated_at": "2023-10-07T23:34:26.505Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "1ee6e82d-655a-4344-8639-d7b930a76490",
+        "name": "Riverfront Retreat",
+        "address": "789 Oak Drive",
+        "tenant_id": "9d8cccdc-af37-4bda-9305-5fc6a359f90b",
+        "property_type": "Cottage",
+        "created_at": "2023-10-08T09:14:54.128Z",
+        "updated_at": "2023-10-08T10:55:32.295Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "5cac55e6-fcab-4b85-bf45-c596beead05c",
+        "name": "Cityscape Apartments",
+        "address": "321 Pine Lane",
+        "tenant_id": "36c80405-db5d-4887-bc3b-947ac1bf3971",
+        "property_type": "Townhouse",
+        "created_at": "2023-10-08T00:43:38.217Z",
+        "updated_at": "2023-10-07T15:21:34.751Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "3f961d6f-16ab-4485-969c-11ad843a9abe",
+        "name": "Mountain View Cottage",
+        "address": "654 Maple Court",
+        "tenant_id": "fb8362ac-00ac-42c2-977a-b6a202063389",
+        "property_type": "Condo",
+        "created_at": "2023-10-08T11:26:52.277Z",
+        "updated_at": "2023-10-07T17:20:15.969Z",
+        "landlord_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "b2b4a745-0a28-4fda-99de-d3b2ecdfe053",
+        "visit_date": "2023-10-07T18:34:57.710Z",
+        "tenant_id": "fb8362ac-00ac-42c2-977a-b6a202063389",
+        "visit_reason": "Vacation",
+        "created_at": "2023-10-07T15:52:46.853Z",
+        "updated_at": "2023-10-08T14:23:06.908Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8cb953c-8781-407d-8126-37803478d218",
+        "visit_date": "2023-10-08T06:56:34.220Z",
+        "tenant_id": "36c80405-db5d-4887-bc3b-947ac1bf3971",
+        "visit_reason": "Business trip",
+        "created_at": "2023-10-08T07:28:16.025Z",
+        "updated_at": "2023-10-08T00:45:19.831Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "089854fd-616f-49fe-8f84-cbed28c370d3",
+        "visit_date": "2023-10-08T00:21:18.901Z",
+        "tenant_id": "fb8362ac-00ac-42c2-977a-b6a202063389",
+        "visit_reason": "Family visit",
+        "created_at": "2023-10-08T00:01:32.040Z",
+        "updated_at": "2023-10-08T07:04:08.113Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35049c12-5a66-4f1e-904e-9a8e907008c7",
+        "visit_date": "2023-10-07T16:25:20.610Z",
+        "tenant_id": "ed647286-e1e3-4e20-9732-474f8d570c7b",
+        "visit_reason": "Wedding",
+        "created_at": "2023-10-08T00:34:49.885Z",
+        "updated_at": "2023-10-08T08:22:59.349Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a1a32a1-46a1-49cb-9772-0fca35a35ee3",
+        "visit_date": "2023-10-07T15:39:46.267Z",
+        "tenant_id": "9d8cccdc-af37-4bda-9305-5fc6a359f90b",
+        "visit_reason": "Sightseeing",
+        "created_at": "2023-10-07T16:46:12.552Z",
+        "updated_at": "2023-10-07T23:54:51.256Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "73325a9a-9bac-4a0c-9f3a-4de1c4e0c70f",
+        "email": "Julie64@roq.tech",
+        "firstName": "Ted",
+        "lastName": "Block",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56948063",
+        "tenantId": null
+      },
+      {
+        "reference": "9ac471f4-4e80-4877-8424-8df4df37187d",
+        "email": "Brigitte42@roq.tech",
+        "firstName": "Thelma",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/210.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "70736aa5-d316-40d1-b5e8-7774b89cf2df",
+        "email": "Dalton.Metz@roq.tech",
+        "firstName": "Madelynn",
+        "lastName": "Gutkowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55709351",
+        "tenantId": null
+      },
+      {
+        "reference": "de1a04b0-c3e3-4a15-b01b-f940b62e6285",
+        "email": "Shanel_Nolan@roq.tech",
+        "firstName": "Mariam",
+        "lastName": "Wilderman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96015152",
+        "tenantId": null
+      },
+      {
+        "reference": "719b6804-281a-47c0-9750-8708b79ff0c8",
+        "email": "Jenifer_Reinger@roq.tech",
+        "firstName": "Daphne",
+        "lastName": "Lang",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/249.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tenant": [
+      {
+        "id": "285a040d-737a-49b8-8b4b-2cf6c3d22ffb",
+        "rent_due_date": "2023-10-08T03:41:28.557Z",
+        "lease_start_date": "2023-10-07T14:41:07.888Z",
+        "lease_end_date": "2023-10-08T00:30:00.140Z",
+        "rent_amount": 84273,
+        "created_at": "2023-10-08T09:00:22.357Z",
+        "updated_at": "2023-10-07T14:49:55.727Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd01df83-015f-42e3-8a99-ad39bed35970",
+        "rent_due_date": "2023-10-08T10:14:24.474Z",
+        "lease_start_date": "2023-10-07T22:23:02.707Z",
+        "lease_end_date": "2023-10-08T11:55:42.775Z",
+        "rent_amount": 93524,
+        "created_at": "2023-10-08T03:08:58.487Z",
+        "updated_at": "2023-10-08T03:41:02.681Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2dadbf26-ee8a-4822-a1f5-9f8565883cba",
+        "rent_due_date": "2023-10-07T19:23:52.591Z",
+        "lease_start_date": "2023-10-08T08:13:05.393Z",
+        "lease_end_date": "2023-10-08T08:32:26.187Z",
+        "rent_amount": 21731,
+        "created_at": "2023-10-08T04:08:46.145Z",
+        "updated_at": "2023-10-08T14:06:18.113Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7981430f-dd5e-49f4-9fd8-78dd4ca8b7a1",
+        "rent_due_date": "2023-10-08T13:56:44.170Z",
+        "lease_start_date": "2023-10-07T19:21:31.280Z",
+        "lease_end_date": "2023-10-08T09:01:31.452Z",
+        "rent_amount": 53923,
+        "created_at": "2023-10-08T12:36:28.884Z",
+        "updated_at": "2023-10-07T20:01:05.635Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20bd591d-7a07-4030-a868-d33e54f41551",
+        "rent_due_date": "2023-10-08T00:05:03.127Z",
+        "lease_start_date": "2023-10-08T01:53:39.110Z",
+        "lease_end_date": "2023-10-08T02:30:21.222Z",
+        "rent_amount": 10694,
+        "created_at": "2023-10-08T13:34:40.538Z",
+        "updated_at": "2023-10-08T13:30:59.900Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_provider": [
+      {
+        "id": "a9f10966-8749-45b8-9651-358022f39800",
+        "service_type": "Plumber",
+        "availability": "Monday to Friday",
+        "rating": 69328,
+        "created_at": "2023-10-08T09:26:20.436Z",
+        "updated_at": "2023-10-07T22:25:50.227Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2bf8052c-b4a6-466d-a921-c65753a578fe",
+        "service_type": "Electrician",
+        "availability": "Weekends",
+        "rating": 65982,
+        "created_at": "2023-10-07T17:50:48.321Z",
+        "updated_at": "2023-10-07T15:03:36.592Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61118496-0b5a-45f2-b742-dbc25644cf93",
+        "service_type": "Carpenter",
+        "availability": "Evenings",
+        "rating": 27161,
+        "created_at": "2023-10-07T19:01:15.220Z",
+        "updated_at": "2023-10-07T17:25:16.627Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81301b83-d377-4a79-b499-eb31ff6d9e72",
+        "service_type": "Painter",
+        "availability": "24/7",
+        "rating": 89994,
+        "created_at": "2023-10-07T22:46:47.840Z",
+        "updated_at": "2023-10-08T02:58:06.290Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d77879d2-63e3-4d13-ab72-347f2cd13e8a",
+        "service_type": "Gardener",
+        "availability": "On Call",
+        "rating": 50194,
+        "created_at": "2023-10-08T01:38:16.943Z",
+        "updated_at": "2023-10-08T13:17:32.228Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "property": [
+      {
+        "id": "36a751e2-d7aa-4cab-945e-2100aae0eb5f",
+        "name": "Sunset Villa",
+        "address": "123 Main Street",
+        "tenant_id": "7981430f-dd5e-49f4-9fd8-78dd4ca8b7a1",
+        "property_type": "House",
+        "created_at": "2023-10-08T00:24:48.504Z",
+        "updated_at": "2023-10-08T06:38:49.347Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "adfa6b02-66f6-4abc-9995-0c4b251c6049",
+        "name": "Green Meadows",
+        "address": "456 Elm Avenue",
+        "tenant_id": "fd01df83-015f-42e3-8a99-ad39bed35970",
+        "property_type": "Apartment",
+        "created_at": "2023-10-08T00:05:46.242Z",
+        "updated_at": "2023-10-08T14:18:42.237Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "c389e789-b311-403a-af25-e7e044cbadb6",
+        "name": "Ocean View Apartments",
+        "address": "789 Oak Lane",
+        "tenant_id": "20bd591d-7a07-4030-a868-d33e54f41551",
+        "property_type": "Cottage",
+        "created_at": "2023-10-08T03:11:21.792Z",
+        "updated_at": "2023-10-08T06:44:05.385Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "91f88ed2-3aff-4f1a-b3eb-4e27512bb030",
+        "name": "Mountain Retreat",
+        "address": "321 Pine Road",
+        "tenant_id": "7981430f-dd5e-49f4-9fd8-78dd4ca8b7a1",
+        "property_type": "Condo",
+        "created_at": "2023-10-08T01:50:23.571Z",
+        "updated_at": "2023-10-07T21:46:30.073Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "95e1e10f-3c3b-40b7-aa59-aa07716864aa",
+        "name": "City Lights Condo",
+        "address": "654 Maple Court",
+        "tenant_id": "2dadbf26-ee8a-4822-a1f5-9f8565883cba",
+        "property_type": "Villa",
+        "created_at": "2023-10-07T17:59:46.338Z",
+        "updated_at": "2023-10-08T00:38:03.358Z",
+        "landlord_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "fabe110d-dd49-46fc-996f-35186b1be879",
+        "visit_date": "2023-10-08T11:34:25.301Z",
+        "tenant_id": "20bd591d-7a07-4030-a868-d33e54f41551",
+        "visit_reason": "Vacation",
+        "created_at": "2023-10-07T23:58:10.786Z",
+        "updated_at": "2023-10-08T13:13:49.905Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3618054-ad7f-434c-b527-622a4b6d3f75",
+        "visit_date": "2023-10-08T10:10:55.632Z",
+        "tenant_id": "2dadbf26-ee8a-4822-a1f5-9f8565883cba",
+        "visit_reason": "Business trip",
+        "created_at": "2023-10-07T22:16:50.776Z",
+        "updated_at": "2023-10-08T00:44:38.474Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "55d83d66-21ae-461b-a53d-896e177d6f76",
+        "visit_date": "2023-10-07T20:38:07.050Z",
+        "tenant_id": "20bd591d-7a07-4030-a868-d33e54f41551",
+        "visit_reason": "Family visit",
+        "created_at": "2023-10-08T09:33:31.085Z",
+        "updated_at": "2023-10-07T15:59:19.919Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b49ffdd6-7285-41a6-929f-0cf5e26b3ac1",
+        "visit_date": "2023-10-08T02:21:06.072Z",
+        "tenant_id": "fd01df83-015f-42e3-8a99-ad39bed35970",
+        "visit_reason": "Wedding",
+        "created_at": "2023-10-08T06:29:49.334Z",
+        "updated_at": "2023-10-08T02:46:49.643Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "63044975-34b6-4a4f-9734-31ff8a67ed03",
+        "visit_date": "2023-10-08T09:46:49.413Z",
+        "tenant_id": "2dadbf26-ee8a-4822-a1f5-9f8565883cba",
+        "visit_reason": "Exploring the city",
+        "created_at": "2023-10-07T19:15:13.285Z",
+        "updated_at": "2023-10-08T06:21:16.570Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "98d4efd6-e1dd-4593-acbc-ee23da1c8c53",
+        "email": "Orval33@roq.tech",
+        "firstName": "Michale",
+        "lastName": "Marquardt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21635169",
+        "tenantId": null
+      },
+      {
+        "reference": "9dffad10-6a69-4446-9842-23da1c308a5f",
+        "email": "Scot42@roq.tech",
+        "firstName": "Loyal",
+        "lastName": "Cormier-Lehner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1059.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5650af86-1803-4241-a6f4-4ab59f56c15e",
+        "email": "Rebecca.Walsh@roq.tech",
+        "firstName": "Brianne",
+        "lastName": "Frami",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/821.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "15c9f9ab-f6c3-4445-8e00-0199a04f96c9",
+        "email": "General.Lesch@roq.tech",
+        "firstName": "Mervin",
+        "lastName": "Grimes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/154.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3f151532-b783-4732-8ef7-f2676cbee94b",
+        "email": "Brittany51@roq.tech",
+        "firstName": "Ruthie",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1188.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tenant": [
+      {
+        "id": "baf40ae2-7a2e-4ef8-8635-3b3414d14ce7",
+        "rent_due_date": "2023-10-08T00:31:30.189Z",
+        "lease_start_date": "2023-10-08T09:02:15.727Z",
+        "lease_end_date": "2023-10-08T10:42:54.698Z",
+        "rent_amount": 70633,
+        "created_at": "2023-10-08T05:04:36.038Z",
+        "updated_at": "2023-10-07T19:48:42.025Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc7f770d-ccd0-43ef-bfcf-4661cfa2102c",
+        "rent_due_date": "2023-10-08T07:01:25.855Z",
+        "lease_start_date": "2023-10-08T08:32:12.350Z",
+        "lease_end_date": "2023-10-08T01:12:42.938Z",
+        "rent_amount": 60532,
+        "created_at": "2023-10-07T19:22:56.994Z",
+        "updated_at": "2023-10-08T11:37:20.725Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a484ad0-1cf2-4db4-89c5-230325ae3fbb",
+        "rent_due_date": "2023-10-08T06:25:09.591Z",
+        "lease_start_date": "2023-10-07T15:02:34.329Z",
+        "lease_end_date": "2023-10-07T16:12:31.238Z",
+        "rent_amount": 93322,
+        "created_at": "2023-10-08T04:23:28.615Z",
+        "updated_at": "2023-10-08T06:50:05.691Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e93582c3-7d8d-4a66-887b-e3a7430a2fdd",
+        "rent_due_date": "2023-10-08T02:15:29.739Z",
+        "lease_start_date": "2023-10-08T08:22:14.270Z",
+        "lease_end_date": "2023-10-07T18:51:56.799Z",
+        "rent_amount": 17884,
+        "created_at": "2023-10-07T18:09:38.419Z",
+        "updated_at": "2023-10-08T09:52:31.865Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4467a1fc-9fb0-4457-b7e3-ccc1a151644f",
+        "rent_due_date": "2023-10-07T20:04:45.292Z",
+        "lease_start_date": "2023-10-08T07:20:04.911Z",
+        "lease_end_date": "2023-10-08T05:16:37.715Z",
+        "rent_amount": 65007,
+        "created_at": "2023-10-08T01:19:52.030Z",
+        "updated_at": "2023-10-07T14:52:29.816Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "service_provider": [
+      {
+        "id": "1542c473-8ce2-4ca5-81d5-3a36f5a87905",
+        "service_type": "Plumber",
+        "availability": "Monday-Friday",
+        "rating": 90737,
+        "created_at": "2023-10-08T00:15:43.070Z",
+        "updated_at": "2023-10-07T19:33:22.641Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c20f98f-2d9f-486d-af85-f5527847c8bc",
+        "service_type": "Electrician",
+        "availability": "Weekends",
+        "rating": 2124,
+        "created_at": "2023-10-07T19:33:32.343Z",
+        "updated_at": "2023-10-08T06:39:13.028Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81e10351-8a54-48c4-8017-bea49a2fd081",
+        "service_type": "Carpenter",
+        "availability": "Evenings",
+        "rating": 60395,
+        "created_at": "2023-10-08T02:01:32.735Z",
+        "updated_at": "2023-10-08T12:03:56.717Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b110db3e-0b02-43c3-ac1a-8e11b1f4c92f",
+        "service_type": "Gardener",
+        "availability": "24/7",
+        "rating": 40901,
+        "created_at": "2023-10-07T21:13:23.083Z",
+        "updated_at": "2023-10-07T22:59:20.168Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "138fce45-6a32-4b64-9402-c70432f2b855",
+        "service_type": "Painter",
+        "availability": "By Appointment",
+        "rating": 84897,
+        "created_at": "2023-10-07T19:36:30.734Z",
+        "updated_at": "2023-10-07T22:43:05.923Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "property": [
+      {
+        "id": "6e57de2e-0777-4f05-a98d-85c105fe4f09",
+        "name": "Cozy Cottage",
+        "address": "123 Main Street",
+        "tenant_id": "baf40ae2-7a2e-4ef8-8635-3b3414d14ce7",
+        "property_type": "House",
+        "created_at": "2023-10-07T23:15:11.142Z",
+        "updated_at": "2023-10-08T05:53:36.815Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "9ad33bd5-e772-41e7-81bb-10f7e86db493",
+        "name": "City View Apartment",
+        "address": "456 Elm Avenue",
+        "tenant_id": "4467a1fc-9fb0-4457-b7e3-ccc1a151644f",
+        "property_type": "Apartment",
+        "created_at": "2023-10-08T07:34:28.739Z",
+        "updated_at": "2023-10-08T04:59:47.489Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "c3700291-6cf2-498d-a458-3be54c743562",
+        "name": "Beach House Retreat",
+        "address": "789 Oak Drive",
+        "tenant_id": "4467a1fc-9fb0-4457-b7e3-ccc1a151644f",
+        "property_type": "Condo",
+        "created_at": "2023-10-07T18:00:39.614Z",
+        "updated_at": "2023-10-08T12:55:10.329Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "279445ad-15b3-44a3-bc42-d1893211ec2a",
+        "name": "Urban Loft",
+        "address": "101 Maple Lane",
+        "tenant_id": "e93582c3-7d8d-4a66-887b-e3a7430a2fdd",
+        "property_type": "Cottage",
+        "created_at": "2023-10-08T03:42:31.338Z",
+        "updated_at": "2023-10-08T08:33:36.990Z",
+        "landlord_id": "main_entity_pk"
+      },
+      {
+        "id": "2a356239-009d-4c9f-b9df-00253b77b249",
+        "name": "Luxury Villa",
+        "address": "202 Pine Road",
+        "tenant_id": "e93582c3-7d8d-4a66-887b-e3a7430a2fdd",
+        "property_type": "Villa",
+        "created_at": "2023-10-07T21:55:01.418Z",
+        "updated_at": "2023-10-08T06:18:04.058Z",
+        "landlord_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "a3ff3af5-8449-4644-babf-fcac4226538b",
+        "visit_date": "2023-10-07T18:11:44.208Z",
+        "tenant_id": "e93582c3-7d8d-4a66-887b-e3a7430a2fdd",
+        "visit_reason": "Vacation",
+        "created_at": "2023-10-08T14:28:29.513Z",
+        "updated_at": "2023-10-08T14:12:29.251Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7128c60b-c42a-40a7-b295-5df7ae37c1f6",
+        "visit_date": "2023-10-08T05:51:54.540Z",
+        "tenant_id": "e93582c3-7d8d-4a66-887b-e3a7430a2fdd",
+        "visit_reason": "Business Trip",
+        "created_at": "2023-10-08T01:23:08.377Z",
+        "updated_at": "2023-10-08T12:41:57.975Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6332fb5d-b226-4940-b14f-2cf0efb0b52e",
+        "visit_date": "2023-10-08T13:02:37.481Z",
+        "tenant_id": "fc7f770d-ccd0-43ef-bfcf-4661cfa2102c",
+        "visit_reason": "Family Visit",
+        "created_at": "2023-10-08T09:45:20.104Z",
+        "updated_at": "2023-10-07T16:17:29.455Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "425cf7da-ec13-4d1a-834a-9e91a244e125",
+        "visit_date": "2023-10-07T23:29:53.442Z",
+        "tenant_id": "fc7f770d-ccd0-43ef-bfcf-4661cfa2102c",
+        "visit_reason": "Special Event",
+        "created_at": "2023-10-08T00:25:01.734Z",
+        "updated_at": "2023-10-08T00:24:58.323Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bfe5df20-34c8-4f8a-bed9-b3dd6d3877c4",
+        "visit_date": "2023-10-08T07:05:38.772Z",
+        "tenant_id": "baf40ae2-7a2e-4ef8-8635-3b3414d14ce7",
+        "visit_reason": "Weekend Getaway",
+        "created_at": "2023-10-08T00:15:21.803Z",
+        "updated_at": "2023-10-08T06:34:07.546Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c3aedef0-c822-47a6-8322-e2b513c7bd3a",
+        "email": "Hiram84@roq.tech",
+        "firstName": "Michel",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/245.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5495c789-31ae-4f31-ac4e-814ff30ec7cc",
+        "email": "Jaqueline13@roq.tech",
+        "firstName": "Dalton",
+        "lastName": "Cole",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17892549",
+        "tenantId": null
+      },
+      {
+        "reference": "e45d7cd5-4ac6-46e3-a956-67a06df95880",
+        "email": "Santino_Thiel70@roq.tech",
+        "firstName": "Bartholome",
+        "lastName": "Tillman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83793638",
+        "tenantId": null
+      },
+      {
+        "reference": "0f6d21d9-e02d-458f-9868-4ff2aefaae51",
+        "email": "Maybelle_Nienow@roq.tech",
+        "firstName": "Idella",
+        "lastName": "Littel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/115.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d989c988-fc4c-4720-a83b-13a42f95d317",
+        "email": "Florian_Haley-Russel@roq.tech",
+        "firstName": "Rene",
+        "lastName": "Dibbert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15119857",
+        "tenantId": null
+      }
+    ]
+  }
+]
